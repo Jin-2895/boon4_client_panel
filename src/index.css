@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Lato", sans-serif;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+  transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+.MuiBox-root {
+  height: 100%;
+}
+
+.css-13ctq1j-MuiPaper-root-MuiAccordion-root {
+  border: none !important;
+}
+
+.css-ta84vm-MuiAccordionDetails-root {
+  border-top: none !important;
+}
+
+.css-yk16xz-control,
+.css-1pahdxg-control {
+  min-height: 47px !important;
+  border-radius: 0 !important;
+  border-color: #808080 !important;
+}
+.css-1pahdxg-control:hover {
+  border-color: #808080 !important;
+}
+.css-1pahdxg-control {
+  box-shadow: 0 0 0 0px #808080 !important;
+}
+.css-1wy0on6 span {
+  display: none;
+  visibility: hidden;
+}
+
+.css-yw020d-MuiAccordionSummary-expandIconWrapper {
+  color: #cf2d39 !important;
+}
+
+.css-bf288w-MuiTypography-root {
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  line-height: 24px !important;
+}
+.css-q1xpxw-MuiButtonBase-root-MuiAccordionSummary-root {
+  padding: 16px 38px !important;
+}
+
+@layer base {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+.css-1g6gooi > div > input {
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #cf2d39;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a81c26;
+}
+
+.tint-picture {
+  filter: sepia() saturate(10000%) hue-rotate(30deg);
+}
+
+.css-tj5bde-Svg {
+  display: none !important;
+}
